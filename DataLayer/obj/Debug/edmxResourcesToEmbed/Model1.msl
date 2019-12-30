@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SystifyITERBAModelStoreContainer" CdmEntityContainer="ERBAEntities">
+    <EntitySetMapping Name="C1tempinstrumenten">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.C1tempinstrumenten">
+        <MappingFragment StoreEntitySet="1tempinstrumenten">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NETID" ColumnName="NETID" />
+          <ScalarProperty Name="INSID" ColumnName="INSID" />
+          <ScalarProperty Name="AantalINS" ColumnName="AantalINS" />
+          <ScalarProperty Name="Aan_speld" ColumnName="Aan speld" />
+          <ScalarProperty Name="Inlegvolgnummer" ColumnName="Inlegvolgnummer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Afdekmateriaal">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Afdekmateriaal">
+        <MappingFragment StoreEntitySet="Afdekmateriaal">
+          <ScalarProperty Name="AfdekID" ColumnName="AfdekID" />
+          <ScalarProperty Name="Naam_afdekmateriaal" ColumnName="Naam_afdekmateriaal" />
+          <ScalarProperty Name="Omschrijving" ColumnName="Omschrijving" />
+          <ScalarProperty Name="Locatie" ColumnName="Locatie" />
+          <ScalarProperty Name="Info" ColumnName="Info" />
+          <ScalarProperty Name="Leverancier" ColumnName="Leverancier" />
+          <ScalarProperty Name="Prijs" ColumnName="Prijs" />
+          <ScalarProperty Name="Afdekmateriaalfoto" ColumnName="Afdekmateriaalfoto" />
+          <ScalarProperty Name="Magazijn" ColumnName="Magazijn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categorie">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Categorie">
+        <MappingFragment StoreEntitySet="Categorie">
+          <ScalarProperty Name="CATID" ColumnName="CATID" />
+          <ScalarProperty Name="Categorie1" ColumnName="Categorie" />
+          <ScalarProperty Name="GeldigVanaf" ColumnName="GeldigVanaf" />
+          <ScalarProperty Name="GeldigTot" ColumnName="GeldigTot" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CSAInleggen">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.CSAInleggen">
+        <MappingFragment StoreEntitySet="CSAInleggen">
+          <ScalarProperty Name="InlegID" ColumnName="InlegID" />
+          <ScalarProperty Name="Netnaam" ColumnName="Netnaam" />
+          <ScalarProperty Name="Inlegnetnummer" ColumnName="Inlegnetnummer" />
+          <ScalarProperty Name="Inlegdoor" ColumnName="Inlegdoor" />
+          <ScalarProperty Name="InlegOpmerkingen" ColumnName="InlegOpmerkingen" />
+          <ScalarProperty Name="Inlegdatum" ColumnName="Inlegdatum" />
+          <ScalarProperty Name="Inlegtijd" ColumnName="Inlegtijd" />
+          <ScalarProperty Name="InlegExpiratiedatum" ColumnName="InlegExpiratiedatum" />
+          <ScalarProperty Name="Gewicht" ColumnName="Gewicht" />
+          <ScalarProperty Name="Verrichtingid" ColumnName="Verrichtingid" />
+          <ScalarProperty Name="OKopmerkingen" ColumnName="OKopmerkingen" />
+          <ScalarProperty Name="CSAdataankomst" ColumnName="CSAdataankomst" />
+          <ScalarProperty Name="CSAtijdaankomst" ColumnName="CSAtijdaankomst" />
+          <ScalarProperty Name="CSAmedewaankomst" ColumnName="CSAmedewaankomst" />
+          <ScalarProperty Name="CSAopmaankomst" ColumnName="CSAopmaankomst" />
+          <ScalarProperty Name="CSAopmokingel" ColumnName="CSAopmokingel" />
+          <ScalarProperty Name="Charge" ColumnName="Charge" />
+          <ScalarProperty Name="Autoclaaf" ColumnName="Autoclaaf" />
+          <ScalarProperty Name="Dustcover" ColumnName="Dustcover" />
+          <ScalarProperty Name="Dutcoverdat" ColumnName="Dutcoverdat" />
+          <ScalarProperty Name="Sterilisatiedatum" ColumnName="Sterilisatiedatum" />
+          <ScalarProperty Name="Sterilisatietijd" ColumnName="Sterilisatietijd" />
+          <ScalarProperty Name="TempID" ColumnName="TempID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employee2T">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Employee2T">
+        <MappingFragment StoreEntitySet="Employee2T">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="INSID" ColumnName="INSID" />
+          <ScalarProperty Name="EmployeePicture" ColumnName="EmployeePicture" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Fotos">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Fotos">
+        <MappingFragment StoreEntitySet="Fotos">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NetID" ColumnName="NetID" />
+          <ScalarProperty Name="Foto" ColumnName="Foto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Gebruiker">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Gebruiker">
+        <MappingFragment StoreEntitySet="Gebruiker">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="RolID" ColumnName="RolID" />
+          <ScalarProperty Name="Inlognaam" ColumnName="Inlognaam" />
+          <ScalarProperty Name="Volledigenaam" ColumnName="Volledigenaam" />
+          <ScalarProperty Name="Wachtwoord" ColumnName="Wachtwoord" />
+          <ScalarProperty Name="Geslacht" ColumnName="Geslacht" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="Postcode" ColumnName="Postcode" />
+          <ScalarProperty Name="Plaats" ColumnName="Plaats" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Functie" ColumnName="Functie" />
+          <ScalarProperty Name="GeboorteDatum" ColumnName="GeboorteDatum" />
+          <ScalarProperty Name="TelNr" ColumnName="TelNr" />
+          <ScalarProperty Name="TelNrMobiel" ColumnName="TelNrMobiel" />
+          <ScalarProperty Name="Aktief" ColumnName="Aktief" />
+          <ScalarProperty Name="Gelijkafdrukken" ColumnName="Gelijkafdrukken" />
+          <ScalarProperty Name="Afdrukkenvlgsinleggen" ColumnName="Afdrukkenvlgsinleggen" />
+          <ScalarProperty Name="GebruikRFID" ColumnName="GebruikRFID" />
+          <ScalarProperty Name="GebruikWeegschaal" ColumnName="GebruikWeegschaal" />
+          <ScalarProperty Name="Startdatum" ColumnName="Startdatum" />
+          <ScalarProperty Name="Einddatum" ColumnName="Einddatum" />
+          <ScalarProperty Name="Laatsteinlogdat" ColumnName="Laatsteinlogdat" />
+          <ScalarProperty Name="Laatsteinlogtim" ColumnName="Laatsteinlogtim" />
+          <ScalarProperty Name="ExtraInfo" ColumnName="ExtraInfo" />
+          <ScalarProperty Name="MomenteelIngelogd" ColumnName="MomenteelIngelogd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Instrserienummers">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Instrserienummers">
+        <MappingFragment StoreEntitySet="Instrserienummers">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="InsID" ColumnName="InsID" />
+          <ScalarProperty Name="Uniek_Serienummer" ColumnName="Uniek_Serienummer" />
+          <ScalarProperty Name="Vervallenop" ColumnName="Vervallenop" />
+          <ScalarProperty Name="Aanschafdatum" ColumnName="Aanschafdatum" />
+          <ScalarProperty Name="Inreparatie" ColumnName="Inreparatie" />
+          <ScalarProperty Name="SerieNrKoppelNet" ColumnName="SerieNrKoppelNet" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Instrumenten">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Instrumenten">
+        <MappingFragment StoreEntitySet="Instrumenten">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Categorie" ColumnName="Categorie" />
+          <ScalarProperty Name="Instrumentnaam" ColumnName="Instrumentnaam" />
+          <ScalarProperty Name="MaxTemp" ColumnName="MaxTemp" />
+          <ScalarProperty Name="MinTemp" ColumnName="MinTemp" />
+          <ScalarProperty Name="LeverancierID" ColumnName="LeverancierID" />
+          <ScalarProperty Name="Bestelnummer" ColumnName="Bestelnummer" />
+          <ScalarProperty Name="Bijzonderheden" ColumnName="Bijzonderheden" />
+          <ScalarProperty Name="Specialisme" ColumnName="Specialisme" />
+          <ScalarProperty Name="Gewicht" ColumnName="Gewicht" />
+          <ScalarProperty Name="Datumwijziging" ColumnName="Datumwijziging" />
+          <ScalarProperty Name="GewijzigddoorID" ColumnName="GewijzigddoorID" />
+          <ScalarProperty Name="Kost" ColumnName="Kost" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="VoorraadLocatie" ColumnName="VoorraadLocatie" />
+          <ScalarProperty Name="AantalVoorraad" ColumnName="AantalVoorraad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Klaarzetten">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Klaarzetten">
+        <MappingFragment StoreEntitySet="Klaarzetten">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Omschrijving" ColumnName="Omschrijving" />
+          <ScalarProperty Name="Extras" ColumnName="Extras" />
+          <ScalarProperty Name="Specialisme" ColumnName="Specialisme" />
+          <ScalarProperty Name="Klaarzetten_Als" ColumnName="Klaarzetten_Als" />
+          <ScalarProperty Name="Extras_OK" ColumnName="Extras_OK" />
+          <ScalarProperty Name="OKbeschrijving" ColumnName="OKbeschrijving" />
+          <ScalarProperty Name="Bijzonderheden" ColumnName="Bijzonderheden" />
+          <ScalarProperty Name="Datumwijziging" ColumnName="Datumwijziging" />
+          <ScalarProperty Name="Gewijzigddoor" ColumnName="Gewijzigddoor" />
+          <ScalarProperty Name="Status_operatieverslag" ColumnName="Status_operatieverslag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KplTblAfdek">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.KplTblAfdek">
+        <MappingFragment StoreEntitySet="KplTblAfdek">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="KlaarzetID" ColumnName="KlaarzetID" />
+          <ScalarProperty Name="AfdekID" ColumnName="AfdekID" />
+          <ScalarProperty Name="Aantal" ColumnName="Aantal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Leveranciers">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Leveranciers">
+        <MappingFragment StoreEntitySet="Leveranciers">
+          <ScalarProperty Name="LEVID" ColumnName="LEVID" />
+          <ScalarProperty Name="Naam" ColumnName="Naam" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="Plaats" ColumnName="Plaats" />
+          <ScalarProperty Name="Vertegenwoordiger" ColumnName="Vertegenwoordiger" />
+          <ScalarProperty Name="Telefoonnummer" ColumnName="Telefoonnummer" />
+          <ScalarProperty Name="TelefoonnummerMobiel" ColumnName="TelefoonnummerMobiel" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Specialisatie" ColumnName="Specialisatie" />
+          <ScalarProperty Name="Postcode" ColumnName="Postcode" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+          <ScalarProperty Name="Emailadres" ColumnName="Emailadres" />
+          <ScalarProperty Name="Crediteurnummer" ColumnName="Crediteurnummer" />
+          <ScalarProperty Name="Klantnummer" ColumnName="Klantnummer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="luLocatie">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.luLocatie">
+        <MappingFragment StoreEntitySet="luLocatie">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Naam" ColumnName="Naam" />
+          <ScalarProperty Name="Available" ColumnName="Available" />
+          <ScalarProperty Name="IsAutoklaaf" ColumnName="IsAutoklaaf" />
+          <ScalarProperty Name="IsWasmachine" ColumnName="IsWasmachine" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Media">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Media">
+        <MappingFragment StoreEntitySet="Media">
+          <ScalarProperty Name="VideoID" ColumnName="VideoID" />
+          <ScalarProperty Name="NetID" ColumnName="NetID" />
+          <ScalarProperty Name="Video" ColumnName="Video" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Medicijnen">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Medicijnen">
+        <MappingFragment StoreEntitySet="Medicijnen">
+          <ScalarProperty Name="MedID" ColumnName="MedID" />
+          <ScalarProperty Name="Medicijn" ColumnName="Medicijn" />
+          <ScalarProperty Name="GeldigVanaf" ColumnName="GeldigVanaf" />
+          <ScalarProperty Name="GeldigTot" ColumnName="GeldigTot" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NetInstrument">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.NetInstrument">
+        <MappingFragment StoreEntitySet="NetInstrument">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NETID" ColumnName="NETID" />
+          <ScalarProperty Name="INSID" ColumnName="INSID" />
+          <ScalarProperty Name="AantalINS" ColumnName="AantalINS" />
+          <ScalarProperty Name="Aan_Speld" ColumnName="Aan_Speld" />
+          <ScalarProperty Name="Inlegvolgnummer" ColumnName="Inlegvolgnummer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Netnummers">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Netnummers">
+        <MappingFragment StoreEntitySet="Netnummers">
+          <ScalarProperty Name="NetnoID" ColumnName="NetnoID" />
+          <ScalarProperty Name="NetID" ColumnName="NetID" />
+          <ScalarProperty Name="Nummer" ColumnName="Nummer" />
+          <ScalarProperty Name="Netstatus" ColumnName="Netstatus" />
+          <ScalarProperty Name="Netstatusdatum" ColumnName="Netstatusdatum" />
+          <ScalarProperty Name="Netstatustijd" ColumnName="Netstatustijd" />
+          <ScalarProperty Name="Bijzonderheden" ColumnName="Bijzonderheden" />
+          <ScalarProperty Name="tmpverrid" ColumnName="tmpverrid" />
+          <ScalarProperty Name="ExtraInfoNet" ColumnName="ExtraInfoNet" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Netten">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Netten">
+        <MappingFragment StoreEntitySet="Netten">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LocatieID" ColumnName="LocatieID" />
+          <ScalarProperty Name="TempID" ColumnName="TempID" />
+          <ScalarProperty Name="GewijzigdDoorID" ColumnName="GewijzigdDoorID" />
+          <ScalarProperty Name="KasLocation" ColumnName="KasLocation" />
+          <ScalarProperty Name="NetNumber" ColumnName="NetNumber" />
+          <ScalarProperty Name="Naam_net" ColumnName="Naam_net" />
+          <ScalarProperty Name="Vervallenop" ColumnName="Vervallenop" />
+          <ScalarProperty Name="Datumwijziging" ColumnName="Datumwijziging" />
+          <ScalarProperty Name="DateCSA" ColumnName="DateCSA" />
+          <ScalarProperty Name="EndDateCSA" ColumnName="EndDateCSA" />
+          <ScalarProperty Name="ExtraInfo" ColumnName="ExtraInfo" />
+          <ScalarProperty Name="ExtraInfoCSA" ColumnName="ExtraInfoCSA" />
+          <ScalarProperty Name="charge" ColumnName="charge" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Operatiekamers">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Operatiekamers">
+        <MappingFragment StoreEntitySet="Operatiekamers">
+          <ScalarProperty Name="OKID" ColumnName="OKID" />
+          <ScalarProperty Name="Operatiekamer" ColumnName="Operatiekamer" />
+          <ScalarProperty Name="geldigvanaf" ColumnName="geldigvanaf" />
+          <ScalarProperty Name="geldigtot" ColumnName="geldigtot" />
+          <ScalarProperty Name="code" ColumnName="code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Programmainstellingen">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Programmainstellingen">
+        <MappingFragment StoreEntitySet="Programmainstellingen">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Inleggenstatus" ColumnName="Inleggenstatus" />
+          <ScalarProperty Name="Gewichtnetinschakelen" ColumnName="Gewichtnetinschakelen" />
+          <ScalarProperty Name="Downbrengen" ColumnName="Downbrengen" />
+          <ScalarProperty Name="Tijdtotdown" ColumnName="Tijdtotdown" />
+          <ScalarProperty Name="Netregzondcsa" ColumnName="Netregzondcsa" />
+          <ScalarProperty Name="Expdatnaster" ColumnName="Expdatnaster" />
+          <ScalarProperty Name="Expdatmetdustcov" ColumnName="Expdatmetdustcov" />
+          <ScalarProperty Name="Barcodelezer" ColumnName="Barcodelezer" />
+          <ScalarProperty Name="SMTP_Server" ColumnName="SMTP_Server" />
+          <ScalarProperty Name="SMTP_Poort" ColumnName="SMTP_Poort" />
+          <ScalarProperty Name="SMTP_Wachtwoord" ColumnName="SMTP_Wachtwoord" />
+          <ScalarProperty Name="SMTP_Inlognaam" ColumnName="SMTP_Inlognaam" />
+          <ScalarProperty Name="SMTP_Afzender" ColumnName="SMTP_Afzender" />
+          <ScalarProperty Name="ReparatieMailadres" ColumnName="ReparatieMailadres" />
+          <ScalarProperty Name="ZichtOrderMailadres" ColumnName="ZichtOrderMailadres" />
+          <ScalarProperty Name="SMTP__Log" ColumnName="SMTP__Log" />
+          <ScalarProperty Name="DatabaseStatus" ColumnName="DatabaseStatus" />
+          <ScalarProperty Name="DocumentsLocation" ColumnName="DocumentsLocation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reparaties">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Reparaties">
+        <MappingFragment StoreEntitySet="Reparaties">
+          <ScalarProperty Name="RepID" ColumnName="RepID" />
+          <ScalarProperty Name="NetID" ColumnName="NetID" />
+          <ScalarProperty Name="Instrument" ColumnName="Instrument" />
+          <ScalarProperty Name="Serienummer" ColumnName="Serienummer" />
+          <ScalarProperty Name="Klacht" ColumnName="Klacht" />
+          <ScalarProperty Name="Datum" ColumnName="Datum" />
+          <ScalarProperty Name="AfgehandeldBy" ColumnName="AfgehandeldBy" />
+          <ScalarProperty Name="ReparatieBy" ColumnName="ReparatieBy" />
+          <ScalarProperty Name="Firmanaam" ColumnName="Firmanaam" />
+          <ScalarProperty Name="Net_Uit_Roulatie" ColumnName="Net_Uit_Roulatie" />
+          <ScalarProperty Name="DatumRetour" ColumnName="DatumRetour" />
+          <ScalarProperty Name="AangenomenBy" ColumnName="AangenomenBy" />
+          <ScalarProperty Name="Kosten" ColumnName="Kosten" />
+          <ScalarProperty Name="Afgeschreven" ColumnName="Afgeschreven" />
+          <ScalarProperty Name="VervangendInstrument" ColumnName="VervangendInstrument" />
+          <ScalarProperty Name="Verzonden" ColumnName="Verzonden" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roll">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Roll">
+        <MappingFragment StoreEntitySet="Roll">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Rol" ColumnName="Rol" />
+          <ScalarProperty Name="Omschrijving" ColumnName="Omschrijving" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Setting">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Setting">
+        <MappingFragment StoreEntitySet="Setting">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SectionKey" ColumnName="SectionKey" />
+          <ScalarProperty Name="SubSection1" ColumnName="SubSection1" />
+          <ScalarProperty Name="SubSection2" ColumnName="SubSection2" />
+          <ScalarProperty Name="Sleutel" ColumnName="Sleutel" />
+          <ScalarProperty Name="Waarde" ColumnName="Waarde" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Specialismen">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Specialismen">
+        <MappingFragment StoreEntitySet="Specialismen">
+          <ScalarProperty Name="SPECID" ColumnName="SPECID" />
+          <ScalarProperty Name="Specialisme" ColumnName="Specialisme" />
+          <ScalarProperty Name="geldigvanaf" ColumnName="geldigvanaf" />
+          <ScalarProperty Name="geldigtot" ColumnName="geldigtot" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubLLocaties">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.SubLLocaties">
+        <MappingFragment StoreEntitySet="SubLLocaties">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LocatieID" ColumnName="LocatieID" />
+          <ScalarProperty Name="AutoclaafGoedOFafkeuren" ColumnName="AutoclaafGoedOFafkeuren" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Naam" ColumnName="Naam" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Bijzonderheden" ColumnName="Bijzonderheden" />
+          <ScalarProperty Name="Leverancier" ColumnName="Leverancier" />
+          <ScalarProperty Name="Vervallen" ColumnName="Vervallen" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblStamGeg">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.tblStamGeg">
+        <MappingFragment StoreEntitySet="tblStamGeg">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="C1RECORD" ColumnName="1RECORD" />
+          <ScalarProperty Name="BEpad" ColumnName="BEpad" />
+          <ScalarProperty Name="VerNr" ColumnName="VerNr" />
+          <ScalarProperty Name="VerDtm" ColumnName="VerDtm" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Temperatuur">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Temperatuur">
+        <MappingFragment StoreEntitySet="Temperatuur">
+          <ScalarProperty Name="TempID" ColumnName="TempID" />
+          <ScalarProperty Name="AutoclaafType" ColumnName="AutoclaafType" />
+          <ScalarProperty Name="Temprature" ColumnName="Temprature" />
+          <ScalarProperty Name="MinTemperatuur" ColumnName="MinTemperatuur" />
+          <ScalarProperty Name="MaxTemperatuur" ColumnName="MaxTemperatuur" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TempInstrInNet_0">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.TempInstrInNet_0">
+        <MappingFragment StoreEntitySet="TempInstrInNet_0">
+          <ScalarProperty Name="Nummer" ColumnName="Nummer" />
+          <ScalarProperty Name="INSID" ColumnName="INSID" />
+          <ScalarProperty Name="NETID" ColumnName="NETID" />
+          <ScalarProperty Name="AantalINS" ColumnName="AantalINS" />
+          <ScalarProperty Name="Instrumentnaam" ColumnName="Instrumentnaam" />
+          <ScalarProperty Name="Inlegvolgnummer" ColumnName="Inlegvolgnummer" />
+          <ScalarProperty Name="Aan_speld" ColumnName="Aan speld" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TempInstrInNet_1">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.TempInstrInNet_1">
+        <MappingFragment StoreEntitySet="TempInstrInNet_1">
+          <ScalarProperty Name="Nummer" ColumnName="Nummer" />
+          <ScalarProperty Name="INSID" ColumnName="INSID" />
+          <ScalarProperty Name="NETID" ColumnName="NETID" />
+          <ScalarProperty Name="AantalINS" ColumnName="AantalINS" />
+          <ScalarProperty Name="Instrumentnaam" ColumnName="Instrumentnaam" />
+          <ScalarProperty Name="Inlegvolgnummer" ColumnName="Inlegvolgnummer" />
+          <ScalarProperty Name="Aan_speld" ColumnName="Aan speld" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TempInstrInNet_2">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.TempInstrInNet_2">
+        <MappingFragment StoreEntitySet="TempInstrInNet_2">
+          <ScalarProperty Name="Nummer" ColumnName="Nummer" />
+          <ScalarProperty Name="INSID" ColumnName="INSID" />
+          <ScalarProperty Name="NETID" ColumnName="NETID" />
+          <ScalarProperty Name="AantalINS" ColumnName="AantalINS" />
+          <ScalarProperty Name="Instrumentnaam" ColumnName="Instrumentnaam" />
+          <ScalarProperty Name="Inlegvolgnummer" ColumnName="Inlegvolgnummer" />
+          <ScalarProperty Name="Aan_speld" ColumnName="Aan speld" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TempInstrInNet_3">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.TempInstrInNet_3">
+        <MappingFragment StoreEntitySet="TempInstrInNet_3">
+          <ScalarProperty Name="Nummer" ColumnName="Nummer" />
+          <ScalarProperty Name="INSID" ColumnName="INSID" />
+          <ScalarProperty Name="NETID" ColumnName="NETID" />
+          <ScalarProperty Name="AantalINS" ColumnName="AantalINS" />
+          <ScalarProperty Name="Instrumentnaam" ColumnName="Instrumentnaam" />
+          <ScalarProperty Name="Inlegvolgnummer" ColumnName="Inlegvolgnummer" />
+          <ScalarProperty Name="Aan_speld" ColumnName="Aan speld" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TempInstrInNet_4">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.TempInstrInNet_4">
+        <MappingFragment StoreEntitySet="TempInstrInNet_4">
+          <ScalarProperty Name="Nummer" ColumnName="Nummer" />
+          <ScalarProperty Name="INSID" ColumnName="INSID" />
+          <ScalarProperty Name="NETID" ColumnName="NETID" />
+          <ScalarProperty Name="AantalINS" ColumnName="AantalINS" />
+          <ScalarProperty Name="Instrumentnaam" ColumnName="Instrumentnaam" />
+          <ScalarProperty Name="Inlegvolgnummer" ColumnName="Inlegvolgnummer" />
+          <ScalarProperty Name="Aan_speld" ColumnName="Aan speld" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TempInstrInNet_5">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.TempInstrInNet_5">
+        <MappingFragment StoreEntitySet="TempInstrInNet_5">
+          <ScalarProperty Name="Nummer" ColumnName="Nummer" />
+          <ScalarProperty Name="INSID" ColumnName="INSID" />
+          <ScalarProperty Name="NETID" ColumnName="NETID" />
+          <ScalarProperty Name="AantalINS" ColumnName="AantalINS" />
+          <ScalarProperty Name="Instrumentnaam" ColumnName="Instrumentnaam" />
+          <ScalarProperty Name="Inlegvolgnummer" ColumnName="Inlegvolgnummer" />
+          <ScalarProperty Name="Aan_speld" ColumnName="Aan speld" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TempInstrInNet_6">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.TempInstrInNet_6">
+        <MappingFragment StoreEntitySet="TempInstrInNet_6">
+          <ScalarProperty Name="Nummer" ColumnName="Nummer" />
+          <ScalarProperty Name="INSID" ColumnName="INSID" />
+          <ScalarProperty Name="NETID" ColumnName="NETID" />
+          <ScalarProperty Name="AantalINS" ColumnName="AantalINS" />
+          <ScalarProperty Name="Instrumentnaam" ColumnName="Instrumentnaam" />
+          <ScalarProperty Name="Inlegvolgnummer" ColumnName="Inlegvolgnummer" />
+          <ScalarProperty Name="Aan_speld" ColumnName="Aan speld" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TempInstrInNet_7">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.TempInstrInNet_7">
+        <MappingFragment StoreEntitySet="TempInstrInNet_7">
+          <ScalarProperty Name="Nummer" ColumnName="Nummer" />
+          <ScalarProperty Name="INSID" ColumnName="INSID" />
+          <ScalarProperty Name="NETID" ColumnName="NETID" />
+          <ScalarProperty Name="AantalINS" ColumnName="AantalINS" />
+          <ScalarProperty Name="Instrumentnaam" ColumnName="Instrumentnaam" />
+          <ScalarProperty Name="Inlegvolgnummer" ColumnName="Inlegvolgnummer" />
+          <ScalarProperty Name="Aan_speld" ColumnName="Aan speld" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TempInstrInNet_8">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.TempInstrInNet_8">
+        <MappingFragment StoreEntitySet="TempInstrInNet_8">
+          <ScalarProperty Name="Nummer" ColumnName="Nummer" />
+          <ScalarProperty Name="INSID" ColumnName="INSID" />
+          <ScalarProperty Name="NETID" ColumnName="NETID" />
+          <ScalarProperty Name="AantalINS" ColumnName="AantalINS" />
+          <ScalarProperty Name="Instrumentnaam" ColumnName="Instrumentnaam" />
+          <ScalarProperty Name="Inlegvolgnummer" ColumnName="Inlegvolgnummer" />
+          <ScalarProperty Name="Aan_speld" ColumnName="Aan speld" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TempInstrInNet_9">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.TempInstrInNet_9">
+        <MappingFragment StoreEntitySet="TempInstrInNet_9">
+          <ScalarProperty Name="Nummer" ColumnName="Nummer" />
+          <ScalarProperty Name="INSID" ColumnName="INSID" />
+          <ScalarProperty Name="NETID" ColumnName="NETID" />
+          <ScalarProperty Name="AantalINS" ColumnName="AantalINS" />
+          <ScalarProperty Name="Instrumentnaam" ColumnName="Instrumentnaam" />
+          <ScalarProperty Name="Inlegvolgnummer" ColumnName="Inlegvolgnummer" />
+          <ScalarProperty Name="Aan_speld" ColumnName="Aan speld" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tempOperatiekamers">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.tempOperatiekamers">
+        <MappingFragment StoreEntitySet="tempOperatiekamers">
+          <ScalarProperty Name="OKID" ColumnName="OKID" />
+          <ScalarProperty Name="Operatiekamer" ColumnName="Operatiekamer" />
+          <ScalarProperty Name="geldigvanaf" ColumnName="geldigvanaf" />
+          <ScalarProperty Name="geldigtot" ColumnName="geldigtot" />
+          <ScalarProperty Name="code" ColumnName="code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users_OLD">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Users_OLD">
+        <MappingFragment StoreEntitySet="Users_OLD">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserGroupID" ColumnName="UserGroupID" />
+          <ScalarProperty Name="EmployeeNumber" ColumnName="EmployeeNumber" />
+          <ScalarProperty Name="ForeName" ColumnName="ForeName" />
+          <ScalarProperty Name="FamilyName" ColumnName="FamilyName" />
+          <ScalarProperty Name="LoginName" ColumnName="LoginName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Aktief" ColumnName="Aktief" />
+          <ScalarProperty Name="RapportAccess" ColumnName="RapportAccess" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="TelNr1" ColumnName="TelNr1" />
+          <ScalarProperty Name="TelNr2" ColumnName="TelNr2" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="ContractEndDate" ColumnName="ContractEndDate" />
+          <ScalarProperty Name="Skype" ColumnName="Skype" />
+          <ScalarProperty Name="TokenID" ColumnName="TokenID" />
+          <ScalarProperty Name="ExtraInfo" ColumnName="ExtraInfo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VerrichtingenGebruikteNettenOK">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.VerrichtingenGebruikteNettenOK">
+        <MappingFragment StoreEntitySet="VerrichtingenGebruikteNettenOK">
+          <ScalarProperty Name="VerrID" ColumnName="VerrID" />
+          <ScalarProperty Name="okdatum" ColumnName="okdatum" />
+          <ScalarProperty Name="oktijd" ColumnName="oktijd" />
+          <ScalarProperty Name="operatiekamer" ColumnName="operatiekamer" />
+          <ScalarProperty Name="verrichting" ColumnName="verrichting" />
+          <ScalarProperty Name="instrumenterende" ColumnName="instrumenterende" />
+          <ScalarProperty Name="omloop" ColumnName="omloop" />
+          <ScalarProperty Name="pinnr" ColumnName="pinnr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VerrichtingenStartOpdeOK">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.VerrichtingenStartOpdeOK">
+        <MappingFragment StoreEntitySet="VerrichtingenStartOpdeOK">
+          <ScalarProperty Name="VerrID" ColumnName="VerrID" />
+          <ScalarProperty Name="pinnr" ColumnName="pinnr" />
+          <ScalarProperty Name="PatientNaam" ColumnName="PatientNaam" />
+          <ScalarProperty Name="Geboortedatum" ColumnName="Geboortedatum" />
+          <ScalarProperty Name="Anesthesietechniek" ColumnName="Anesthesietechniek" />
+          <ScalarProperty Name="oktijd" ColumnName="oktijd" />
+          <ScalarProperty Name="okdatum" ColumnName="okdatum" />
+          <ScalarProperty Name="operatiekamer" ColumnName="operatiekamer" />
+          <ScalarProperty Name="verrichting" ColumnName="verrichting" />
+          <ScalarProperty Name="tijdinLeiding" ColumnName="tijdinLeiding" />
+          <ScalarProperty Name="tijdbeginOK" ColumnName="tijdbeginOK" />
+          <ScalarProperty Name="tijdeindeOK" ColumnName="tijdeindeOK" />
+          <ScalarProperty Name="tijduitleiding" ColumnName="tijduitleiding" />
+          <ScalarProperty Name="tijduitdeOK" ColumnName="tijduitdeOK" />
+          <ScalarProperty Name="ingreepLigging" ColumnName="ingreepLigging" />
+          <ScalarProperty Name="instrumenterende" ColumnName="instrumenterende" />
+          <ScalarProperty Name="omloop" ColumnName="omloop" />
+          <ScalarProperty Name="Anesthenist" ColumnName="Anesthenist" />
+          <ScalarProperty Name="Anesthesiemedewerker" ColumnName="Anesthesiemedewerker" />
+          <ScalarProperty Name="Operateur" ColumnName="Operateur" />
+          <ScalarProperty Name="OperateurAssistent" ColumnName="OperateurAssistent" />
+          <ScalarProperty Name="InstrumentenGeteld" ColumnName="InstrumentenGeteld" />
+          <ScalarProperty Name="DisposablesGeteld" ColumnName="DisposablesGeteld" />
+          <ScalarProperty Name="NaaldenHectingGeteld" ColumnName="NaaldenHectingGeteld" />
+          <ScalarProperty Name="GazenGeteld" ColumnName="GazenGeteld" />
+          <ScalarProperty Name="Inplantaten" ColumnName="Inplantaten" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Verwijzingklaarzettenals">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Verwijzingklaarzettenals">
+        <MappingFragment StoreEntitySet="Verwijzingklaarzettenals">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="KlaarzettenAls" ColumnName="KlaarzettenAls" />
+          <ScalarProperty Name="Omschrijving" ColumnName="Omschrijving" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Werkplekken">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Werkplekken">
+        <MappingFragment StoreEntitySet="Werkplekken">
+          <ScalarProperty Name="WP_ID" ColumnName="WP_ID" />
+          <ScalarProperty Name="Werkpleknaam" ColumnName="Werkpleknaam" />
+          <ScalarProperty Name="Standaardprinter" ColumnName="Standaardprinter" />
+          <ScalarProperty Name="Labelprinter" ColumnName="Labelprinter" />
+          <ScalarProperty Name="netstatus" ColumnName="netstatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KplTblMedicijn">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.KplTblMedicijn">
+        <MappingFragment StoreEntitySet="KplTblMedicijn">
+          <ScalarProperty Name="KlaarzetID" ColumnName="KlaarzetID" />
+          <ScalarProperty Name="MedicijnID" ColumnName="MedicijnID" />
+          <ScalarProperty Name="Aantal" ColumnName="Aantal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KplTblNet">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.KplTblNet">
+        <MappingFragment StoreEntitySet="KplTblNet">
+          <ScalarProperty Name="KlaarzetID" ColumnName="KlaarzetID" />
+          <ScalarProperty Name="NetID" ColumnName="NetID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Locaties">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Locaties">
+        <MappingFragment StoreEntitySet="Locaties">
+          <ScalarProperty Name="LocID" ColumnName="LocID" />
+          <ScalarProperty Name="Locatienaam" ColumnName="Locatienaam" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zichtorders">
+      <EntityTypeMapping TypeName="SystifyITERBAModel.Zichtorders">
+        <MappingFragment StoreEntitySet="Zichtorders">
+          <ScalarProperty Name="ZichtID" ColumnName="ZichtID" />
+          <ScalarProperty Name="Artikel" ColumnName="Artikel" />
+          <ScalarProperty Name="Op_zicht_van" ColumnName="Op zicht van" />
+          <ScalarProperty Name="Op_zicht_tot" ColumnName="Op zicht tot" />
+          <ScalarProperty Name="Firma" ColumnName="Firma" />
+          <ScalarProperty Name="Ordernummer" ColumnName="Ordernummer" />
+          <ScalarProperty Name="Doorgegeven_aan_firma" ColumnName="Doorgegeven aan firma" />
+          <ScalarProperty Name="Assistentie" ColumnName="Assistentie" />
+          <ScalarProperty Name="Afspraken_mbt_assistentie" ColumnName="Afspraken mbt assistentie" />
+          <ScalarProperty Name="Naar_TD" ColumnName="Naar TD" />
+          <ScalarProperty Name="Naar_TD_datum" ColumnName="Naar TD datum" />
+          <ScalarProperty Name="Retour_TD_datum" ColumnName="Retour TD datum" />
+          <ScalarProperty Name="Betreft_bruikleennet" ColumnName="Betreft bruikleennet" />
+          <ScalarProperty Name="Implantaten_mee" ColumnName="Implantaten mee" />
+          <ScalarProperty Name="OK_Datum" ColumnName="OK Datum" />
+          <ScalarProperty Name="Soort_operatie" ColumnName="Soort operatie" />
+          <ScalarProperty Name="Aangevraagd_door" ColumnName="Aangevraagd door" />
+          <ScalarProperty Name="Aangevraagd_op" ColumnName="Aangevraagd op" />
+          <ScalarProperty Name="zichtorder_binnen" ColumnName="zichtorder binnen" />
+          <ScalarProperty Name="aangenomen_door" ColumnName="aangenomen door" />
+          <ScalarProperty Name="zichtorder_binnen_datum" ColumnName="zichtorder binnen datum" />
+          <ScalarProperty Name="zichtorder_retour_behouden" ColumnName="zichtorder retour behouden" />
+          <ScalarProperty Name="datum_behouden_retour" ColumnName="datum behouden retour" />
+          <ScalarProperty Name="retour_behouden_afgehandeld_door" ColumnName="retour behouden afgehandeld door" />
+          <ScalarProperty Name="kosten" ColumnName="kosten" />
+          <ScalarProperty Name="Aantal_netten" ColumnName="Aantal netten" />
+          <ScalarProperty Name="verzonden" ColumnName="verzonden" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="spGetNetByID" FunctionName="SystifyITERBAModel.Store.spGetNetByID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SystifyITERBAModel.spGetNetByID_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LocatieID" ColumnName="LocatieID" />
+          <ScalarProperty Name="TempID" ColumnName="TempID" />
+          <ScalarProperty Name="GewijzigdDoorID" ColumnName="GewijzigdDoorID" />
+          <ScalarProperty Name="KasLocation" ColumnName="KasLocation" />
+          <ScalarProperty Name="Nummer" ColumnName="Nummer" />
+          <ScalarProperty Name="Naam" ColumnName="Naam" />
+          <ScalarProperty Name="Vervallenop" ColumnName="Vervallenop" />
+          <ScalarProperty Name="Datumwijziging" ColumnName="Datumwijziging" />
+          <ScalarProperty Name="DateCSA" ColumnName="DateCSA" />
+          <ScalarProperty Name="EndDateCSA" ColumnName="EndDateCSA" />
+          <ScalarProperty Name="Omschrijving" ColumnName="Omschrijving" />
+          <ScalarProperty Name="OmschrijvingCSA" ColumnName="OmschrijvingCSA" />
+          <ScalarProperty Name="Gebruikersnaam" ColumnName="Gebruikersnaam" />
+          <ScalarProperty Name="Locatie" ColumnName="Locatie" />
+          <ScalarProperty Name="Temprature" ColumnName="Temprature" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="spGetNetInstruments" FunctionName="SystifyITERBAModel.Store.spGetNetInstruments">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SystifyITERBAModel.spGetNetInstruments_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Instrumentnaam" ColumnName="Instrumentnaam" />
+          <ScalarProperty Name="Bestelnummer" ColumnName="Bestelnummer" />
+          <ScalarProperty Name="INSID" ColumnName="INSID" />
+          <ScalarProperty Name="NETID" ColumnName="NETID" />
+          <ScalarProperty Name="Aantal" ColumnName="Aantal" />
+          <ScalarProperty Name="Inlegvolgnummer" ColumnName="Inlegvolgnummer" />
+          <ScalarProperty Name="AantalIngebruik" ColumnName="AantalIngebruik" />
+          <ScalarProperty Name="Aan_Speld" ColumnName="Aan_Speld" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="spGetNetten" FunctionName="SystifyITERBAModel.Store.spGetNetten">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SystifyITERBAModel.spGetNetten_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LocatieID" ColumnName="LocatieID" />
+          <ScalarProperty Name="TempID" ColumnName="TempID" />
+          <ScalarProperty Name="KasLocation" ColumnName="KasLocation" />
+          <ScalarProperty Name="Nummer" ColumnName="Nummer" />
+          <ScalarProperty Name="Naam" ColumnName="Naam" />
+          <ScalarProperty Name="Vervallenop" ColumnName="Vervallenop" />
+          <ScalarProperty Name="Datumwijziging" ColumnName="Datumwijziging" />
+          <ScalarProperty Name="Omschrijving" ColumnName="Omschrijving" />
+          <ScalarProperty Name="Gebruikersnaam" ColumnName="Gebruikersnaam" />
+          <ScalarProperty Name="Locatie" ColumnName="Locatie" />
+          <ScalarProperty Name="Temprature" ColumnName="Temprature" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="spSearchNetten" FunctionName="SystifyITERBAModel.Store.spSearchNetten" />
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,966 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tileNavPane1.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt, style=Bold</value>
+  </data>
+  <data name="tileNavPane1.AppearanceHovered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt, style=Bold</value>
+  </data>
+  <data name="tileNavPane1.AppearanceSelected.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt, style=Bold</value>
+  </data>
+  <data name="navOK.Caption" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="itmEinde.Caption" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tileNavPane1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tileNavPane1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tileNavPane1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>912, 45</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tileNavPane1.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="tileNavPane1.Text" xml:space="preserve">
+    <value>tileNavPane1</value>
+  </data>
+  <data name="&gt;&gt;tileNavPane1.Name" xml:space="preserve">
+    <value>tileNavPane1</value>
+  </data>
+  <data name="&gt;&gt;tileNavPane1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.TileNavPane, DevExpress.XtraBars.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tileNavPane1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tileNavPane1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tileItem4.AppearanceItem.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 11.25pt, style=Bold</value>
+  </data>
+  <data name="tileItemElement11.Text" xml:space="preserve">
+    <value>Report designer</value>
+  </data>
+  <data name="itmVerslAktielijsIntern.AppearanceItem.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10pt, style=Bold</value>
+  </data>
+  <data name="tileItemElement12.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10pt, style=Bold</value>
+  </data>
+  <data name="tileItemElement13.Text" xml:space="preserve">
+    <value>Verslag actie intern</value>
+  </data>
+  <data name="itmVerslAktielijsExtern.AppearanceItem.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10pt, style=Bold</value>
+  </data>
+  <data name="tileItemElement14.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.Font1" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10pt, style=Bold</value>
+  </data>
+  <data name="tileItemElement15.Text" xml:space="preserve">
+    <value>Verslag actie extern</value>
+  </data>
+  <data name="tileItem1.AppearanceItem.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 11.25pt, style=Bold</value>
+  </data>
+  <data name="tileItemElement16.Text" xml:space="preserve">
+    <value>Report designer</value>
+  </data>
+  <data name="tileItem2.AppearanceItem.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10pt, style=Bold</value>
+  </data>
+  <data name="tileItemElement17.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.Font2" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10pt, style=Bold</value>
+  </data>
+  <data name="tileItemElement18.Text" xml:space="preserve">
+    <value>Verslag actie intern</value>
+  </data>
+  <data name="tileItem3.AppearanceItem.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10pt, style=Bold</value>
+  </data>
+  <data name="tileItemElement19.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.Font3" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 10pt, style=Bold</value>
+  </data>
+  <data name="tileItemElement20.Text" xml:space="preserve">
+    <value>Verslag actie extern</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 178</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>906, 393</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnFotoDel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>686, 133</value>
+  </data>
+  <data name="btnFotoDel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <data name="btnFotoDel.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="btnFotoDel.Text" xml:space="preserve">
+    <value>Foto Verwijderen</value>
+  </data>
+  <data name="&gt;&gt;btnFotoDel.Name" xml:space="preserve">
+    <value>btnFotoDel</value>
+  </data>
+  <data name="&gt;&gt;btnFotoDel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnFotoDel.Parent" xml:space="preserve">
+    <value>gb</value>
+  </data>
+  <data name="&gt;&gt;btnFotoDel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnFotoAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>493, 133</value>
+  </data>
+  <data name="btnFotoAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <data name="btnFotoAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="btnFotoAdd.Text" xml:space="preserve">
+    <value>Foto Toevoegen</value>
+  </data>
+  <data name="&gt;&gt;btnFotoAdd.Name" xml:space="preserve">
+    <value>btnFotoAdd</value>
+  </data>
+  <data name="&gt;&gt;btnFotoAdd.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnFotoAdd.Parent" xml:space="preserve">
+    <value>gb</value>
+  </data>
+  <data name="&gt;&gt;btnFotoAdd.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblMagazijn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMagazijn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblMagazijn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 131</value>
+  </data>
+  <data name="lblMagazijn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="lblMagazijn.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblMagazijn.Text" xml:space="preserve">
+    <value>Magazijn Locatie:</value>
+  </data>
+  <data name="&gt;&gt;lblMagazijn.Name" xml:space="preserve">
+    <value>lblMagazijn</value>
+  </data>
+  <data name="&gt;&gt;lblMagazijn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMagazijn.Parent" xml:space="preserve">
+    <value>gb</value>
+  </data>
+  <data name="&gt;&gt;lblMagazijn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbLev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 100</value>
+  </data>
+  <data name="cmbLev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 21</value>
+  </data>
+  <data name="cmbLev.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;cmbLev.Name" xml:space="preserve">
+    <value>cmbLev</value>
+  </data>
+  <data name="&gt;&gt;cmbLev.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbLev.Parent" xml:space="preserve">
+    <value>gb</value>
+  </data>
+  <data name="&gt;&gt;cmbLev.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblLeverancier.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLeverancier.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLeverancier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 103</value>
+  </data>
+  <data name="lblLeverancier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="lblLeverancier.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblLeverancier.Text" xml:space="preserve">
+    <value>Leverancier:</value>
+  </data>
+  <data name="&gt;&gt;lblLeverancier.Name" xml:space="preserve">
+    <value>lblLeverancier</value>
+  </data>
+  <data name="&gt;&gt;lblLeverancier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLeverancier.Parent" xml:space="preserve">
+    <value>gb</value>
+  </data>
+  <data name="&gt;&gt;lblLeverancier.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtPrijs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>551, 72</value>
+  </data>
+  <data name="txtPrijs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 20</value>
+  </data>
+  <data name="txtPrijs.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="&gt;&gt;txtPrijs.Name" xml:space="preserve">
+    <value>txtPrijs</value>
+  </data>
+  <data name="&gt;&gt;txtPrijs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPrijs.Parent" xml:space="preserve">
+    <value>gb</value>
+  </data>
+  <data name="&gt;&gt;txtPrijs.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblNaam.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNaam.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblNaam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 22</value>
+  </data>
+  <data name="lblNaam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 13</value>
+  </data>
+  <data name="lblNaam.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblNaam.Text" xml:space="preserve">
+    <value>Naam afdekmateriaal:</value>
+  </data>
+  <data name="&gt;&gt;lblNaam.Name" xml:space="preserve">
+    <value>lblNaam</value>
+  </data>
+  <data name="&gt;&gt;lblNaam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNaam.Parent" xml:space="preserve">
+    <value>gb</value>
+  </data>
+  <data name="&gt;&gt;lblNaam.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 72</value>
+  </data>
+  <data name="txtInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 20</value>
+  </data>
+  <data name="txtInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;txtInfo.Name" xml:space="preserve">
+    <value>txtInfo</value>
+  </data>
+  <data name="&gt;&gt;txtInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtInfo.Parent" xml:space="preserve">
+    <value>gb</value>
+  </data>
+  <data name="&gt;&gt;txtInfo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtLocatie.Location" type="System.Drawing.Point, System.Drawing">
+    <value>551, 19</value>
+  </data>
+  <data name="txtLocatie.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 20</value>
+  </data>
+  <data name="txtLocatie.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;txtLocatie.Name" xml:space="preserve">
+    <value>txtLocatie</value>
+  </data>
+  <data name="&gt;&gt;txtLocatie.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtLocatie.Parent" xml:space="preserve">
+    <value>gb</value>
+  </data>
+  <data name="&gt;&gt;txtLocatie.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtNaam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 19</value>
+  </data>
+  <data name="txtNaam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 20</value>
+  </data>
+  <data name="txtNaam.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txtNaam.Name" xml:space="preserve">
+    <value>txtNaam</value>
+  </data>
+  <data name="&gt;&gt;txtNaam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNaam.Parent" xml:space="preserve">
+    <value>gb</value>
+  </data>
+  <data name="&gt;&gt;txtNaam.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblLocatie.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLocatie.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLocatie.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 22</value>
+  </data>
+  <data name="lblLocatie.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="lblLocatie.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblLocatie.Text" xml:space="preserve">
+    <value>Locatie:</value>
+  </data>
+  <data name="&gt;&gt;lblLocatie.Name" xml:space="preserve">
+    <value>lblLocatie</value>
+  </data>
+  <data name="&gt;&gt;lblLocatie.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLocatie.Parent" xml:space="preserve">
+    <value>gb</value>
+  </data>
+  <data name="&gt;&gt;lblLocatie.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblPrijs.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPrijs.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPrijs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 75</value>
+  </data>
+  <data name="lblPrijs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="lblPrijs.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblPrijs.Text" xml:space="preserve">
+    <value>Prijs/stuk:</value>
+  </data>
+  <data name="&gt;&gt;lblPrijs.Name" xml:space="preserve">
+    <value>lblPrijs</value>
+  </data>
+  <data name="&gt;&gt;lblPrijs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPrijs.Parent" xml:space="preserve">
+    <value>gb</value>
+  </data>
+  <data name="&gt;&gt;lblPrijs.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblBeschrijving.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBeschrijving.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblBeschrijving.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 49</value>
+  </data>
+  <data name="lblBeschrijving.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="lblBeschrijving.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblBeschrijving.Text" xml:space="preserve">
+    <value>Beschrijving:</value>
+  </data>
+  <data name="&gt;&gt;lblBeschrijving.Name" xml:space="preserve">
+    <value>lblBeschrijving</value>
+  </data>
+  <data name="&gt;&gt;lblBeschrijving.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBeschrijving.Parent" xml:space="preserve">
+    <value>gb</value>
+  </data>
+  <data name="&gt;&gt;lblBeschrijving.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtMag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 128</value>
+  </data>
+  <data name="txtMag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 20</value>
+  </data>
+  <data name="txtMag.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;txtMag.Name" xml:space="preserve">
+    <value>txtMag</value>
+  </data>
+  <data name="&gt;&gt;txtMag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMag.Parent" xml:space="preserve">
+    <value>gb</value>
+  </data>
+  <data name="&gt;&gt;txtMag.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txtOmschrijving.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 46</value>
+  </data>
+  <data name="txtOmschrijving.Size" type="System.Drawing.Size, System.Drawing">
+    <value>668, 20</value>
+  </data>
+  <data name="txtOmschrijving.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;txtOmschrijving.Name" xml:space="preserve">
+    <value>txtOmschrijving</value>
+  </data>
+  <data name="&gt;&gt;txtOmschrijving.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtOmschrijving.Parent" xml:space="preserve">
+    <value>gb</value>
+  </data>
+  <data name="&gt;&gt;txtOmschrijving.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblBestelnr.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBestelnr.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblBestelnr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 75</value>
+  </data>
+  <data name="lblBestelnr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="lblBestelnr.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblBestelnr.Text" xml:space="preserve">
+    <value>Bestelnr:</value>
+  </data>
+  <data name="&gt;&gt;lblBestelnr.Name" xml:space="preserve">
+    <value>lblBestelnr</value>
+  </data>
+  <data name="&gt;&gt;lblBestelnr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBestelnr.Parent" xml:space="preserve">
+    <value>gb</value>
+  </data>
+  <data name="&gt;&gt;lblBestelnr.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="gb.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="gb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="gb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>906, 162</value>
+  </data>
+  <data name="gb.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="gb.Text" xml:space="preserve">
+    <value>Afdekmateriaal gegevens</value>
+  </data>
+  <data name="&gt;&gt;gb.Name" xml:space="preserve">
+    <value>gb</value>
+  </data>
+  <data name="&gt;&gt;gb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;gb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 45</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>912, 574</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pictureBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>452, 0</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>454, 393</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gcklaarzetten.Name" xml:space="preserve">
+    <value>gcklaarzetten</value>
+  </data>
+  <data name="&gt;&gt;gcklaarzetten.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcklaarzetten.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;gcklaarzetten.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 393</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gcklaarzetten.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gcklaarzetten.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="AfdekID.Caption" xml:space="preserve">
+    <value>AfdekID</value>
+  </data>
+  <data name="KlaarzetID.Caption" xml:space="preserve">
+    <value>KlaarzetID</value>
+  </data>
+  <data name="colOmschrijving.Caption" xml:space="preserve">
+    <value>Omschrijving</value>
+  </data>
+  <data name="colOmschrijving.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colOmschrijving.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="colOmschrijving.Width" type="System.Int32, mscorlib">
+    <value>344</value>
+  </data>
+  <data name="colAantal.Caption" xml:space="preserve">
+    <value>Aantal</value>
+  </data>
+  <data name="colAantal.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colAantal.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="colAantal.Width" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="gcklaarzetten.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 393</value>
+  </data>
+  <data name="gcklaarzetten.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;gcklaarzetten.Name" xml:space="preserve">
+    <value>gcklaarzetten</value>
+  </data>
+  <data name="&gt;&gt;gcklaarzetten.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gcklaarzetten.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;gcklaarzetten.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>912, 619</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>AppMain</value>
+  </data>
+  <data name="&gt;&gt;tileNavCategory1.Name" xml:space="preserve">
+    <value>tileNavCategory1</value>
+  </data>
+  <data name="&gt;&gt;tileNavCategory1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.TileNavCategory, DevExpress.XtraBars.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navOK.Name" xml:space="preserve">
+    <value>navOK</value>
+  </data>
+  <data name="&gt;&gt;navOK.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavButton, DevExpress.XtraBars.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itmEinde.Name" xml:space="preserve">
+    <value>itmEinde</value>
+  </data>
+  <data name="&gt;&gt;itmEinde.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.NavButton, DevExpress.XtraBars.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tileGroup4.Name" xml:space="preserve">
+    <value>tileGroup4</value>
+  </data>
+  <data name="&gt;&gt;tileGroup4.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TileGroup, DevExpress.XtraEditors.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tileItem4.Name" xml:space="preserve">
+    <value>tileItem4</value>
+  </data>
+  <data name="&gt;&gt;tileItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itmVerslAktielijsIntern.Name" xml:space="preserve">
+    <value>itmVerslAktielijsIntern</value>
+  </data>
+  <data name="&gt;&gt;itmVerslAktielijsIntern.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;itmVerslAktielijsExtern.Name" xml:space="preserve">
+    <value>itmVerslAktielijsExtern</value>
+  </data>
+  <data name="&gt;&gt;itmVerslAktielijsExtern.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tileGroup1.Name" xml:space="preserve">
+    <value>tileGroup1</value>
+  </data>
+  <data name="&gt;&gt;tileGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TileGroup, DevExpress.XtraEditors.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tileItem1.Name" xml:space="preserve">
+    <value>tileItem1</value>
+  </data>
+  <data name="&gt;&gt;tileItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tileItem2.Name" xml:space="preserve">
+    <value>tileItem2</value>
+  </data>
+  <data name="&gt;&gt;tileItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;tileItem3.Name" xml:space="preserve">
+    <value>tileItem3</value>
+  </data>
+  <data name="&gt;&gt;tileItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TileItem, DevExpress.XtraEditors.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gv.Name" xml:space="preserve">
+    <value>gv</value>
+  </data>
+  <data name="&gt;&gt;gv.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;AfdekID.Name" xml:space="preserve">
+    <value>AfdekID</value>
+  </data>
+  <data name="&gt;&gt;AfdekID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;KlaarzetID.Name" xml:space="preserve">
+    <value>KlaarzetID</value>
+  </data>
+  <data name="&gt;&gt;KlaarzetID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colOmschrijving.Name" xml:space="preserve">
+    <value>colOmschrijving</value>
+  </data>
+  <data name="&gt;&gt;colOmschrijving.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;colAantal.Name" xml:space="preserve">
+    <value>colAantal</value>
+  </data>
+  <data name="&gt;&gt;colAantal.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmAfdekmateriaal</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v19.2, Version=19.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+</root>

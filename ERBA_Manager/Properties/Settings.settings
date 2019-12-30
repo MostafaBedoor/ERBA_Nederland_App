@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ERBA_Manager.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="GebNaam" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GebWW" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="OnthoudGegs" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="VersieDatum" Type="System.String" Scope="User">
+      <Value Profile="(Default)">20 sept 2019</Value>
+    </Setting>
+    <Setting Name="VersieNummer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1.0.0.0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

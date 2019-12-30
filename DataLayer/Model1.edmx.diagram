@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6c499650fc1b45b79a839decb73b854f" Name="Diagram1">
+        <EntityTypeShape EntityType="SystifyITERBAModel.C1tempinstrumenten" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Afdekmateriaal" Width="1.5" PointX="9.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Categorie" Width="1.5" PointX="5.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.CSAInleggen" Width="1.5" PointX="10.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Employee2T" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Fotos" Width="1.5" PointX="11.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Gebruiker" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Instrserienummers" Width="1.5" PointX="12.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Instrumenten" Width="1.5" PointX="8" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Klaarzetten" Width="1.5" PointX="12.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.KplTblAfdek" Width="1.5" PointX="13.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Leveranciers" Width="1.5" PointX="5.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.luLocatie" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Media" Width="1.5" PointX="13.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Medicijnen" Width="1.5" PointX="7.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.NetInstrument" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Netnummers" Width="1.5" PointX="2.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Netten" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Operatiekamers" Width="1.5" PointX="14.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Programmainstellingen" Width="1.5" PointX="14.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Reparaties" Width="1.5" PointX="9.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Roll" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Setting" Width="1.5" PointX="11.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Specialismen" Width="1.5" PointX="15.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.SubLLocaties" Width="1.5" PointX="13.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.tblStamGeg" Width="1.5" PointX="15.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Temperatuur" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.TempInstrInNet_0" Width="1.5" PointX="15.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.TempInstrInNet_1" Width="1.5" PointX="16.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.TempInstrInNet_2" Width="1.5" PointX="16.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.TempInstrInNet_3" Width="1.5" PointX="17.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.TempInstrInNet_4" Width="1.5" PointX="17.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.TempInstrInNet_5" Width="1.5" PointX="0.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.TempInstrInNet_6" Width="1.5" PointX="2.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.TempInstrInNet_7" Width="1.5" PointX="18.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.TempInstrInNet_8" Width="1.5" PointX="4.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.TempInstrInNet_9" Width="1.5" PointX="6.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.tempOperatiekamers" Width="1.5" PointX="18.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Users_OLD" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.VerrichtingenGebruikteNettenOK" Width="1.5" PointX="17.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.VerrichtingenStartOpdeOK" Width="1.5" PointX="8.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Verwijzingklaarzettenals" Width="1.5" PointX="18.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Werkplekken" Width="1.5" PointX="19.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.KplTblMedicijn" Width="1.5" PointX="10.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.KplTblNet" Width="1.5" PointX="12.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Locaties" Width="1.5" PointX="19.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SystifyITERBAModel.Zichtorders" Width="1.5" PointX="14.75" PointY="19.75" IsExpanded="true" />
+        <AssociationConnector Association="SystifyITERBAModel.FK_Instrumenten_Categorie" ManuallyRouted="false" />
+        <AssociationConnector Association="SystifyITERBAModel.FK_Gebruiker_Roll" ManuallyRouted="false" />
+        <AssociationConnector Association="SystifyITERBAModel.FK_Netten_Gebruiker" ManuallyRouted="false" />
+        <AssociationConnector Association="SystifyITERBAModel.FK_Netten_luLocatie" ManuallyRouted="false" />
+        <AssociationConnector Association="SystifyITERBAModel.FK_Netten_Temperatuur" ManuallyRouted="false" />
+        <AssociationConnector Association="SystifyITERBAModel.FK_Users_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,9 +1,10 @@
-﻿using System;
+﻿using DataLayer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
-using DataLayer;
 
 namespace BusinessLayer.EntitiesClasses
 {
@@ -11,11 +12,11 @@ namespace BusinessLayer.EntitiesClasses
     {
         public Gebruiker GetGebruikerByInlogGegs(string naam, string pw)
         {
-            using (ERBAEntities db = new ERBAEntities())
+            using (ERBA_Entities db = new ERBA_Entities())
             {
                 try
                 {
-                    var geb = db.Gebruiker.Where(g => g.Inlognaam == naam && g.Wachtwoord == pw).FirstOrDefault();                    
+                    var geb = db.Gebruiker.Where(g => g.Inlognaam == naam && g.Wachtwoord == pw).FirstOrDefault();
                     return geb;
                 }
                 catch (Exception ex)
@@ -27,11 +28,11 @@ namespace BusinessLayer.EntitiesClasses
         }
         public Gebruiker GetGebruikerByID(int id)
         {
-            using (ERBAEntities db = new ERBAEntities())
+            using (ERBA_Entities db = new ERBA_Entities())
             {
                 try
                 {
-                    var geb = db.Gebruiker.Where(g => g.ID == id).FirstOrDefault();                    
+                    var geb = db.Gebruiker.Where(g => g.ID == id).FirstOrDefault();
                     return geb;
                 }
                 catch (Exception ex)
@@ -43,11 +44,11 @@ namespace BusinessLayer.EntitiesClasses
         }
         public List<Roll> GetUesrRolls()
         {
-            using (ERBAEntities db = new ERBAEntities())
+            using (ERBA_Entities db = new ERBA_Entities())
             {
                 try
                 {
-                    var geb = db.Roll.ToList();                    
+                    var geb = db.Roll.ToList();
                     return geb;
                 }
                 catch (Exception ex)
@@ -59,11 +60,11 @@ namespace BusinessLayer.EntitiesClasses
         }
         public List<Gebruiker> GetAllUesr()
         {
-            using (ERBAEntities db = new ERBAEntities())
+            using (ERBA_Entities db = new ERBA_Entities())
             {
                 try
                 {
-                    var geb = db.Gebruiker.ToList();                    
+                    var geb = db.Gebruiker.ToList();
                     return geb;
                 }
                 catch (Exception ex)
@@ -75,12 +76,12 @@ namespace BusinessLayer.EntitiesClasses
         }
         public List<string> GetUesrFunctie()
         {
-            using (ERBAEntities db = new ERBAEntities())
+            using (ERBA_Entities db = new ERBA_Entities())
             {
                 List<string> toReturn = new List<string>();
                 try
                 {
-                    var gebs = db.Gebruiker.Select(o => new { o.Functie}).ToList();
+                    var gebs = db.Gebruiker.Select(o => new { o.Functie }).ToList();
                     gebs = gebs.OrderBy(g => g.Functie).ToList();
                     foreach (var fun in gebs)
                     {
@@ -95,13 +96,5 @@ namespace BusinessLayer.EntitiesClasses
                 }
             }
         }
-
-
     }
-
-    //public class UserFunctie
-    //{
-    //    public int RolID { get; set; }
-    //    public string RolNaam { get; set; }
-    //}
 }
